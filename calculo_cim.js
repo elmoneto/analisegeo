@@ -1,5 +1,5 @@
 
-export function obtemCodigoCIM() {};
+export default obtemCodigoCIM;
 
 /**
  * Módulo para cálculo de código de folhas da Carta Internacional do Mundo ao Milionésimo (CIM).

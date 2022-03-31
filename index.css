@@ -4,7 +4,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#map { height: 92vh; width: 100%; }
+#map { height: 90vh; width: 100%; }
 
 input{
     width: 10em;

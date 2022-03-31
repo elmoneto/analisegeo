@@ -15,6 +15,8 @@ L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
 var marcador = L.marker([map.getCenter().lat, map.getCenter().lng]);
 marcador.addTo(map);
 
+L.control.scale().addTo(map);
+
 map.on("moveend", function(){
     input_lat.value = map.getCenter().lat;
     input_lon.value = map.getCenter().lng;
